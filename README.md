@@ -12,14 +12,27 @@ This README will guide you step-by-step on how to clone, setup, run, and test th
 4. [Setup & Run](#setup--run)
 5. [API Endpoints](#api-endpoints)
 6. [Testing the API](#testing-the-api)
-7. [Author](#author)
+
 
 ---
 
+## Project Overview
+This project is a RESTful API for a rewards program, handling:
+- Member registration & OTP verification
+- Points management (add/view points)
+- Optional coupon redemption
+- JWT-based authentication for protected endpoints
+
+
+---
+
+
 ## Tech Stack
-- **.NET 6/7** (ASP.NET Core Web API)  
-- **Entity Framework Core** (for database interaction)  
-- **SQL Server / SQLite** (depending on configuration)
+- **Backend:** .NET 8 (ASP.NET Core Web API)  
+- **Database:** PostgreSQL/MySQL  
+- **ORM:** Entity Framework Core  
+- **Authentication:** JWT  
+- **Frontend (Optional):** HTML + CSS + Vanilla JS
 
 ---
 
